@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://cdnb.lystit.com/photos/macys/ba75ea9f/seiko-gold-Solar-Chronograph-Coutura-Gold-tone-Stainless-Steel-Bracelet-Watch-44mm.jpeg" alt="watch-img" class="main-img" id="main-img">
+    <div class="product-img-container">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.p5Tz9jQ1Kg-vykqh2lyK0gHaHa&pid=Api&P=0&h=180" alt="watch-img" class="watch-img" onclick="changeimg(1)">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.mYAiSoH42yt6RjYkgPe0QAHaHa&pid=Api&P=0&h=180" alt="watch-img" class="watch-img" onclick="changeimg(2)">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.WDBHGnrv1sm2WCFpwvX1RQHaJE&pid=Api&P=0&h=180" alt="watch-img" class="watch-img" onclick="changeimg(3)">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.X_23l-xYC_JAnOt3B03OuQHaJC&pid=Api&P=0&h=180" alt="watch-img" class="watch-img" onclick="changeimg(4)">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.zhfuTmtq9Iygnr7j_gGDcAHaJQ&pid=Api&P=0&h=180" alt="watch-img" class="watch-img" onclick="changeimg(5)">
+    </div>
+
+    <script>
+        function changeimg(num){
+            const img = document.getElementById("main-img")
+
+            if(num==1){
+                img.src = "https://tse4.mm.bing.net/th?id=OIP.mYAiSoH42yt6RjYkgPe0QAHaHa&pid=Api&P=0&h=180"
+            }
+            else if (num==2){
+                img.src = "https://tse4.mm.bing.net/th?id=OIP.mYAiSoH42yt6RjYkgPe0QAHaHa&pid=Api&P=0&h=180" 
+            }
+            else if (num==3){
+                img.src = "https://tse3.mm.bing.net/th?id=OIP.WDBHGnrv1sm2WCFpwvX1RQHaJE&pid=Api&P=0&h=180"
+            }
+            else if (num==4){
+                img.src = "https://tse2.mm.bing.net/th?id=OIP.X_23l-xYC_JAnOt3B03OuQHaJC&pid=Api&P=0&h=180"
+            }
+            else{
+                img.src = "https://tse4.mm.bing.net/th?id=OIP.zhfuTmtq9Iygnr7j_gGDcAHaJQ&pid=Api&P=0&h=180"
+            }
+        }
+    </script>
+</body>
+</html>
